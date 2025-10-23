@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-42:/values-v33/values-v33.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\1312e2ee0d06ce4c8a4dc4771828b927\\transformed\\core-splashscreen-1.2.0-rc01\\res\\values-v33\\values-v33.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "284"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Pikmin</string>
+    <string name="version">Versión: %1$s</string>
+    <string name="label_familia">Familia</string>
+    <string name="terrestre">Terrestre</string>
+    <string name="acuatico">Acuático</string>
+    <string name="aereo">Aéreo</string>
+    <string name="label_descripcion">Descripción:</string>
+    <string name="label_caracteristica1">Característica 1:</string>
+    <string name="label_caracteristica2">Característica 2:</string>
+    <string name="label_caracteristica3">Característica 3:</string>
+    <string name="imagen_del_pikmin_seleccionado">Imagen del pikmin seleccionado</string>
+    <string name="imagen_del_pikmin">Imagen del pikmin</string>
+    <string name="se_ha_seleccionado_un_pikmin">Se ha seleccionado el pikmin: %s</string>
+    <string name="bienvenido_al_mundo_pikmin">¡Bienvenido al mundo Pikmin!</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="desarrollado_por">Aplicación desarrollada por Francisco Gutiérrez Ruiz</string>
+    <string name="ok">Aceptar</string>
+    <string name="tema">Tema oscuro</string>
+    <string name="idioma">Español</string>
+    <string name="detalle_pikmin">Detalle Pikmin</string>
+    <string name="empty_string" translatable="false"></string>
+
+    <!-- Pikmin names -->
+    <string name="bearded_amprat">Estaticán lanudo</string>
+    <string name="blue_pikmin">Pikmin azul</string>
+    <string name="bulborb">Bulbo</string>
+    <string name="empress_bulblax">Bulbo emperatriz</string>
+    <string name="glow_pikmin">Pikmin luminoso</string>
+    <string name="ice_pikmin">Pikmin gélido</string>
+    <string name="joustmite">Liendre astada</string>
+    <string name="lumiknoll">Lumiloma</string>
+    <string name="peckish_aristocrab">Cepucranco</string>
+    <string name="puckering_blinnow">Comején acuático</string>
+    <string name="puffy_blowhog">Verraco volador</string>
+    <string name="purple_pikmin">Pikmin morado</string>
+    <string name="pyroclasmic_slooch">Pirobabosa</string>
+    <string name="red_pikmin">Pikmin rojo</string>
+    <string name="rock_pikmin">Pikmin pétreo</string>
+    <string name="skeeterskate">Acuatirador</string>
+    <string name="skitter_leaf">Pisaátomos hoja</string>
+    <string name="skutterchuck">Insecto noducristal</string>
+    <string name="swooping_snitchbug">Moscardón ladrón</string>
+    <string name="toady_bloyster">Berberéchido soplón</string>
+    <string name="waddlepus">Burbujero</string>
+    <string name="waterwraith">Espectro acuático</string>
+    <string name="white_pikmin">Pikmin blanco</string>
+    <string name="winged_pikmin">Pikmin alado</string>
+    <string name="yellow_pikmin">Pikmin amarillo</string>
+
+    <!-- Pikmin family -->
+    <string name="fam_bearded_amprat">Estatidentios</string>
+    <string name="fam_blue_pikmin">Pikmin</string>
+    <string name="fam_bulborb">Gusarapérridos</string>
+    <string name="fam_empress_bulblax">Gusarapérridos</string>
+    <string name="fam_glow_pikmin">Desconocida</string>
+    <string name="fam_ice_pikmin">Pikmin</string>
+    <string name="fam_joustmite">Excavarópteros</string>
+    <string name="fam_lumiknoll">Desconocida</string>
+    <string name="fam_peckish_aristocrab">Cepucránquidos</string>
+    <string name="fam_puckering_blinnow">Comejantes</string>
+    <string name="fam_puffy_blowhog">Verracos</string>
+    <string name="fam_purple_pikmin">Pikmin</string>
+    <string name="fam_pyroclasmic_slooch">Babósidos</string>
+    <string name="fam_red_pikmin">Pikmin</string>
+    <string name="fam_rock_pikmin">Pikmin</string>
+    <string name="fam_skeeterskate">Tiradores</string>
+    <string name="fam_skitter_leaf">Pisaátomos</string>
+    <string name="fam_skutterchuck">Nodúlidos</string>
+    <string name="fam_swooping_snitchbug">Escarpánidos</string>
+    <string name="fam_toady_bloyster">Molúsquidos</string>
+    <string name="fam_waddlepus">Cefalopómpados</string>
+    <string name="fam_waterwraith">Desconocida</string>
+    <string name="fam_white_pikmin">Pikmin</string>
+    <string name="fam_winged_pikmin">Pikmin</string>
+    <string name="fam_yellow_pikmin">Pikmin</string>
+
+    <!-- Pikmin cientific name -->
+    <string name="cn_bearded_amprat" translatable="false">Porcellus barbavolta</string>
+    <string name="cn_blue_pikmin" translatable="false">Pikminidae caerula</string>
+    <string name="cn_bulborb" translatable="false">Oculus kageyamii russus</string>
+    <string name="cn_empress_bulblax" translatable="false">Oculus kageyamii matriarchia (hipertrofia, gravidez)</string>
+    <string name="cn_glow_pikmin" translatable="false">Pikminidae supravelum</string>
+    <string name="cn_ice_pikmin" translatable="false">Pikminidae habiglacius</string>
+    <string name="cn_joustmite" translatable="false">Trilobitins reversa</string>
+    <string name="cn_lumiknoll" translatable="false">Collux aeternium</string>
+    <string name="cn_peckish_aristocrab" translatable="false">Brachyurices esurio</string>
+    <string name="cn_puckering_blinnow" translatable="false">Narrolingus piscatum</string>
+    <string name="cn_puffy_blowhog" translatable="false">Sus inflata</string>
+    <string name="cn_purple_pikmin" translatable="false">Pikminidae yokozunum</string>
+    <string name="cn_pyroclasmic_slooch" translatable="false">Sulucina vulcanis</string>
+    <string name="cn_red_pikmin" translatable="false">Pikminidae rubrus</string>
+    <string name="cn_rock_pikmin" translatable="false">Pikminidae habisaxum</string>
+    <string name="cn_skeeterskate" translatable="false">Gerridus clavomacula</string>
+    <string name="cn_skitter_leaf" translatable="false">Rus pseudoarbicans</string>
+    <string name="cn_skutterchuck" translatable="false">Hierodeciderit crystallosum</string>
+    <string name="cn_swooping_snitchbug" translatable="false">Scarpanica kesperens</string>
+    <string name="cn_toady_bloyster" translatable="false">Molluschid minionicus</string>
+    <string name="cn_waddlepus" translatable="false">Opisteuthidae iaciobulla</string>
+    <string name="cn_waterwraith" translatable="false">Amphibio sapiens</string>
+    <string name="cn_white_pikmin" translatable="false">Pikminidae venalbius</string>
+    <string name="cn_winged_pikmin" translatable="false">Pikminidae volarosa</string>
+    <string name="cn_yellow_pikmin" translatable="false">Pikminidae auribus</string>
+
+    <!-- Pikmin descriptions -->
+    <string name="desc_bearded_amprat">Clase de ratón capaz de generar energía estática frotando los vellos de su barba. Además son mamíferos y, por lo tanto, bastante inusuales en este planeta. Es necesario realizar más investigaciones sobre estas criaturas dado que su mera existencia podría dar lugar al surgimiento de una taxonomía de fauna completamente nueva.</string>
+    <string name="desc_blue_pikmin">Cuerpo de color azul y expresión facial indescifrable. A diferencia de la mayoría de las especies radiambulares, que no pueden respirar bajo el agua, los Pikmin azules cuentan con branquias que se confunden con una boca. Esas branquias les permiten sobrevivir en ecosistemas acuáticos y terrestres.</string>
+    <string name="desc_bulborb">Tiene el abdomen escarlata salpicado de motas blancas. Sus hábitos son nocturnos, por lo que de día suelen encontrarse durmiendo. Si son despertados, intentarán engullir cualquier cosa que tengan enfrente. Hay una gran variedad de gusarapérridos, y se considera que están en la cima de la cadena alimenticia.</string>
+    <string name="desc_empress_bulblax">Cuando se cumplen ciertas condiciones en el medioambiente, como la disminución repentina de las especies que les sirven de alimento, la hembra de mayor tamaño de los gusarapérridos de la zona asume el papel de matriarca del grupo. Como resultado, el ovisaco del gusarapérrido hembra se hincha hasta alcanzar enormes proporciones. En ese estado, los nuevos bulbos emperatrices producen un largo número de larvas.</string>
+    <string name="desc_glow_pikmin">Cuerpo de color verde radiante. Al florecer la hoja que tienen en la cabeza, esta toma una forma de estrella. Tienen varias características que los distinguen de los otros tipos de Pikmin, una de ellas es que en vez de brotar de cebollas brotan de lumilomas que solo se encuentran en la noche y en regiones subterráneas.</string>
+    <string name="desc_ice_pikmin">Pertenecen a un subtipo parasitario de Pikmin llamado Ermikmin. Obtienen y mantienen su cuerpo a través de un proceso que utiliza su núcleo de baja temperatura para generar constantemente hielo nuevo de la humedad del ambiente.</string>
+    <string name="desc_joustmite">Poseen un caparazón duro que les protege la cabeza. Pero, si bien los ataques frontales no les causan daño, su parte trasera es muy vulnerable. Esta característica la distingue de la liendre zamacuca pinchosa, la primera especie de la familia que fue descubierta.</string>
+    <string name="desc_lumiknoll">Actúan como nidos e incubadoras de los Pikmin luminosos. Solo aparecen durante la noche en lugares donde haya habido una cebolla durante el día. Su color verde radiante atrae a criaturas nocturnas.</string>
+    <string name="desc_peckish_aristocrab">Son cangrejos anfibios con pinzas asimétricas. La pinza derecha de mayor tamaño puede regenerarse después de desprenderse al cambiar la piel, incluso después de haberse perdido por completo. Curiosamente, no solo su cuerpo se asemeja al de una cebolla, sino que también huelen similar a ella.</string>
+    <string name="desc_puckering_blinnow">Muchos piensan que los comejenes acuáticos no están del todo desarrollados, dado que poseen ojos grandes y no tienen aletas. El hecho es que esa es la fisonomía normal en la especie adulta. Los comejenes acuáticos utilizan su larga aleta caudal para atacar de forma agresiva a su presa cuando ella ingresa al agua.</string>
+    <string name="desc_puffy_blowhog">Utilizan el hidrógeno que generan internamente para inflar una vejiga flotatoria y así se mantienen en el aire. Expulsan aire a través de unos respiraderos.</string>
+    <string name="desc_purple_pikmin">Cuerpo robusto y resistente. Son más fuertes y grandes que el resto de su especie. Pesan 10 veces más que cualquier otro Pikmin. Al igual que los Pikmin blancos, solo pueden nacer a partir de brotes rebotadores que solo se encuentran en regiones subterráneas, por lo que son considerados una especie única.</string>
+    <string name="desc_pyroclasmic_slooch">Especie de gasterópodo terrestre que se protege a sí misma con llamas. En vez de tener un caparazón tradicional, están recubiertas de una mucosa inflamable. Si su llama se extingue les llevará más de un día y medio volver a encenderla.</string>
+    <string name="desc_red_pikmin">Cuerpo de color escarlata y nariz puntiaguda. Además de los rasgos vegetales propios de su especie, presentan características animales como un fuerte espíritu combativo y un grado elevado de curiosidad. Tienen una gran capacidad de adaptación, pues no solo son resistentes al calor extremo, sino que también suelen habitar en una gran variedad de ecosistemas.</string>
+    <string name="desc_rock_pikmin">Tipo de Pikmin parasitario llamado Ermikmin que toma como huésped una piedra y, de manera similar a una semilla que echa raíces a través de las grietas de una roca, las raíces del Pikmin penetran la piedra.</string>
+    <string name="desc_skeeterskate">Patinan sobre el agua. Se alimentan de plancton que absorben, junto con el agua, a través de su boca en forma de tubo. Son territoriales y utilizan el agua como arma contra los pequeños insectos que se aproximan.</string>
+    <string name="desc_skitter_leaf">Tipo de pisaátomo acuático que se protege de depredadores al confundirse con una hoja verde similar a la de los árboles de hojas anchas. Si bien no puede flotar, el pisaátomos hoja puede nadar con facilidad girando su cuerpo en el agua.</string>
+    <string name="desc_skutterchuck">Cuerpo plano, brilloso y negro. Llevan pequeñas rocas a cuestas. Sus antenas y los finos vellos en sus patas han evolucionado para ayudarlos a detectar peligro a sus alrededores, incluso en la oscuridad. Tienden a compartir su hábitat con las larvas de sapo patilargo para asegurarse una amplia provisión de rocas.</string>
+    <string name="desc_swooping_snitchbug">Esta especie desarrolló enormemente sus antenas y ahora las usan para volar y atrapar Pikmin. La superficie de sus cuerpos se compone de delgadas capas que interfieren con la luz y dan el efecto visual de una coloración verde brillante.</string>
+    <string name="desc_toady_bloyster">Son moluscos anfibios con grandes branquias que se asemejan a una flor. Sus ojos no sobresalen de manera tan pronunciada como los de otras especies de la familia de los molúsquidos, que fueron evolucionando cada vez más alejados del caparazón. Los berberéchidos soplones poseen órganos reproductivos tanto masculinos como femeninos.</string>
+    <string name="desc_waddlepus">Expulsan burbujas por la boca y el cuerpo. Pueden parecerse a los pulpos, pero, en realidad, se acercan más a las estrellas de mar en cuanto a su anatomía. Poseen cinco brazos que, al estar distribuidos de forma radial en la parte redonda de su cuerpo, forman una estrella. Viven principalmente cerca del agua, pero también pueden sobrevivir en la tierra.</string>
+    <string name="desc_waterwraith">Todos los informes existentes sobre los espectros acuáticos los describen como seres transparentes, viscosos, con cuerpo gelatinoso que ligeramente se asemeja al cuerpo humano. Se desplazan haciendo rodar dos rocas cilíndricas y utilizando sus extremidades para maniobrar las rocas y perseguir a su presa. Sin embargo, dado que se los ha visto solo unas pocas veces, los espectros acuáticos continúan siendo un gran misterio.</string>
+    <string name="desc_white_pikmin">Cuerpo de color blanco y ojos rojos. Sus pequeños cuerpos segregan un potente veneno, lo que a su vez los hace inmunes a ciertos venenos. Las semillas de Pikmin blancos se pueden obtener por medio de brotes rebotadores marfil que solo crecen en regiones subterráneas.</string>
+    <string name="desc_winged_pikmin">Cuerpo de color rosa y prominentes ojos azules que parecen lentes. Se desplazan ágilmente por los aires con sus alas, pero sus ataques no causan mucho daño.</string>
+    <string name="desc_yellow_pikmin">Cuerpo de color amarillo y un par de lamelas semejantes a orejas que les permiten cavar con rapidez y alcanzar grandes alturas al ser lanzados. Otro rasgo que los distingue es la capacidad de sus cuerpos de conducir la electricidad. Además no solo son resistentes a ella, sino que parecen disfrutarla.</string>
+
+    <!-- Pikmin characteristics -->
+    <string name="char1_bearded_amprat">Generadores de electricidad: Pueden almacenar electricidad en la barba al frotar sus vellos. Este comportamiento hace que se acumule energía estática que ellos luego pueden descargar.</string>
+    <string name="char1_blue_pikmin">Respiración bajo el agua: Tienen unas branquias en la cabeza que se confunden con una boca. Dichas branquias les permiten respirar bajo el agua.</string>
+    <string name="char1_bulborb">Nocturnos: Duermen durante el día y solo se despiertan si se sienten amenazados, por ejemplo, si perciben que alguien entra a su territorio. Al ponerse el sol salen a cazar.</string>
+    <string name="char1_empress_bulblax">Nacimiento de las larvas: Puede dar a luz a un gran número de larvas, formando un grupo de hasta 50 miembros. Una hipótesis establece que este proceso es una estrategia de supervivencia y que las larvas nuevas tienen la tarea de diseminarse por otras zonas con abundantes fuentes de alimento. Sin embargo, otra hipótesis sugiere que las larvas son generadas como fuente nutritiva de emergencia.</string>
+    <string name="char1_glow_pikmin">Viven en lumilomas en vez de cebollas. No tienen pies y flotan en el aire. Son inmunes a muchos elementos que afectan a otros tipos de Pikmin.</string>
+    <string name="char1_ice_pikmin">Propiedades de congelamiento: Congelan a su presa al golpear su cuerpo gélido contra ellas. También flotan en la superficie del agua. Al agruparse, son capaces de congelar grandes extensiones de agua</string>
+    <string name="char1_joustmite">Una cabeza bien protegida: Gracias al caparazón resistente que le protege la cabeza tiende a arremeter frontalmente tanto contra depredadores como contra posibles presas. Desafortunadamente para ellas, su abdomen queda ampliamente desprotegido. Suelen esconderse en la tierra durante el día.</string>
+    <string name="char1_lumiknoll">Nidos de Pikmin luminosos: Los Pikmin luminosos viven dentro de las lumilomas. Si se transportan a ella píldoras lumínicas, brotarán más Pikmin luminosos.</string>
+    <string name="char1_peckish_aristocrab">Pinza grande: Utilizan su gran pinza derecha para atrapar a sus presas, defenderse de posibles depredadores y producir los castañeteos del llamado característico en época de apareamiento.</string>
+    <string name="char1_puckering_blinnow">Saltar fuera del agua: A veces utilizan su larga aleta caudal para propulsarse fuera del agua y atrapar a su presa.</string>
+    <string name="char1_puffy_blowhog">Capacidad de vuelo: Utilizan el hidrógeno que generan internamente para inflar una vejiga flotatoria y mantenerse en el aire. Mantienen la flotabilidad orientando las aletas y expulsando aire a través de los respiraderos que tienen a los costados.</string>
+    <string name="char1_purple_pikmin">Peso: Pesan 10 veces más que los otros Pikmin. Son tan pesados que, al impactar contra el suelo, crean ondas gravitatorias que puede causar daño. Debido a su peso elevado, son más lentos.</string>
+    <string name="char1_pyroclasmic_slooch">Recubiertas en llamas: Uutilizan una mucosa inflamable que les recubre el cuerpo para protegerlas de depredadores. Se aíslan de las llamas que les recubren el cuerpo segregando mucosa constantemente.</string>
+    <string name="char1_red_pikmin">Inmunidad al fuego: La epidermis y fibras musculares se componen de una celulosa ignífuga, lo que les permite tener inmunidad al calor y al fuego.</string>
+    <string name="char1_rock_pikmin">Inquebrantables: Dado que sus cuerpos están hechos de rocas son casi indestructibles, pero pueden ser destruidos si son aplastados sobre superficies duras.</string>
+    <string name="char1_skeeterskate">Flotar en el agua: Sus patas están cubiertas por vellos hidrófobos los cuales crean tensión superficial que les permite flotar en el agua.</string>
+    <string name="char1_skitter_leaf">Mimetismo: Imita a las hojas comunes para poder ocultarse de posibles depredadores. Su lengua en forma de tallo le permite succionar néctar.</string>
+    <string name="char1_skutterchuck">Llevar objetos: Tienen el lomo cóncavo. Esto les permite llevar objetos fácilmente, como rocas pequeñas. Se ha observado que parecen estar vistiendo pequeños sombreros cuando llevan cosas a cuestas.</string>
+    <string name="char1_swooping_snitchbug">Instinto de aprisionar: Usan sus prolongadas antenas para volar y atrapar Pikmin.</string>
+    <string name="char1_toady_bloyster">Lengua larga y delgada: Utilizan sus distintivas lenguas para detectar a sus posibles presas. Dicha lengua está dividida en seis terminaciones diferentes, lo que les permite capturar múltiples presas de una sola vez.</string>
+    <string name="char1_waddlepus">Expulsar burbujas: Se inflan y expulsan burbujas para ahuyentar a los depredadores que se aproximan. Este comportamiento ocurre principalmente para proteger a los huevos durante la época de desove.</string>
+    <string name="char1_waterwraith">Cuerpo transparente: Poseen cuerpos que no son ni líquidos ni sólidos, lo que hace imposible aplicar cualquier criterio de clasificación tradicional en ellos.</string>
+    <string name="char1_white_pikmin">Inmunidad al veneno: Son muy resistentes a los venenos y son inmunes a gases y esporas venenosos.</string>
+    <string name="char1_winged_pikmin">Capacidad de vuelo: Son el único tipo de Pikmin que pueden volar.</string>
+    <string name="char1_yellow_pikmin">Resistencia a la electricidad: Se ha comprobado que, si son expuestos a la electricidad estando en fase de hoja, sus hojas florecerán. Por el contrario, otros tipos de Pikmin terminarían electrocutados si fueran expuestos a dicho elemento.</string>
+    <string name="char2_bearded_amprat">Lactancia: Poseen vellos que les recubren todo el cuerpo para poder mantener una temperatura corporal estable, pero su abdomen es menos velludo. Suelen amamantar a su cría.</string>
+    <string name="char2_blue_pikmin">Excelentes nadadores: Son capaces de combatir criaturas bajo el agua.</string>
+    <string name="char2_bulborb">Consejos para identificarlos: Conforme envejecen, su tonalidad se oscurece. Las motas blancas del abdomen les permiten reconocer a otros de su especie. Se han registrado casos en los que accidentalmente se alimentan de larvas que no presentan motas blancas.</string>
+    <string name="char2_empress_bulblax">Rodar: Su cuerpo es demasiado grande como para desplazarse caminando. Por lo tanto, se arrastran y ruedan por el suelo hacia adelante y hacia atrás para poder desplazarse. No es inusual que ruede accidentalmente encima de una larva de bulbo sin darse cuenta, dado que las larvas de bulbo recién nacidas no poseen manchas rojas.</string>
+    <string name="char2_glow_pikmin">Actividad nocturna y en regiones subterráneas: Son una especie nocturna. Sus actividades se centran en proteger a las lumilomas de los depredadores. Durante el día toman forma de semillas y permanecen en un estado de letargo. Durante la noche y en regiones subterráneas, se encuentran en su forma regular.</string>
+    <string name="char2_ice_pikmin">Inmunidad al frío: Son inmunes a las temperaturas frías y no pueden ser congelados. Sin embargo, son muy vulnerables al fuego y pueden derretirse rápidamente. Eso significa que las llamas les producirán daño más rápidamente que a otros Pikmin.</string>
+    <string name="char2_joustmite">Boca con forma de aguja: Poseen partes de la boca que son alargadas y tienen forma de aguja, lo que les permiten succionar fluidos de la presa que atraviesan.</string>
+    <string name="char2_lumiknoll">Señueloma: Es una fase temprana de las lumilomas. A pesar de su menor tamaño, atrae de igual manera a criaturas nocturnas.</string>
+    <string name="char2_peckish_aristocrab">Expulsar burbujas: Cuando están en la tierra expulsan burbujas a través de unas válvulas especiales para descargar agua que poseen en la parte trasera de su boca. Para respirar, absorben oxígeno a través de las branquias que parecen mejillas.</string>
+    <string name="char2_puckering_blinnow">Nado en grupo: Tienden a nadar en grupo para aumentar la probabilidad de atrapar presas al cazar.</string>
+    <string name="char2_puffy_blowhog">Capacidad de soplar aire: Soplan aire sobre sus presas para alimentarse y también para alejar enemigos.</string>
+    <string name="char2_purple_pikmin">Gran capacidad de carga: Sus fibras musculares son muy densas, lo que les permite tener la fuerza de 10 Pikmin normales. El alcance de su ataque es similar al de los Pikmin rojos. La capacidad de carga de 10 Pikmin normales es igual a la de 1 Pikmin morado.</string>
+    <string name="char2_pyroclasmic_slooch">Lengua alargada: Utilizan su lengua alargada para atrapar y enredar a su presa.</string>
+    <string name="char2_red_pikmin">Alta capacidad ofensiva: Las puntiagudas protuberancias nasales son la causa de la fuerza sobresaliente que los caracteriza.</string>
+    <string name="char2_rock_pikmin">Robustos: Tienen cuerpos muy robustos. ¡Son capaces de romper superficies de cristal!</string>
+    <string name="char2_skeeterskate">Disparar agua: Succionan agua a través de una probóscide en forma de tubo y la escupen hacia los depredadores que ingresen en su territorio.</string>
+    <string name="char2_skitter_leaf">Alas vestigiales: Las partes del cuerpo en forma de hoja evolucionaron de sus alas vestigiales, las cuales emiten un sonido similar al de una campana.</string>
+    <string name="char2_skutterchuck">Arrojar objetos: Se defienden de depredadores arrojando los objetos que llevan a cuestas.</string>
+    <string name="char2_swooping_snitchbug"> </string>
+    <string name="char2_toady_bloyster">Expulsar tinta: Pueden expulsar tinta de su cuerpo al percibirse en peligro.</string>
+    <string name="char2_waddlepus">Cuerpo elástico: Poseen 12 puntos en su torso elástico desde los cuales pueden expulsar burbujas.</string>
+    <string name="char2_waterwraith">Rocas cilíndricas: Generalmente se desplazan utilizando rocas que son predominantemente basálticas pero que también incluyen pequeñas cantidades de otros minerales raros, como el níquel y el cobalto.</string>
+    <string name="char2_white_pikmin">Cuerpos venenosos: Resultan letales para las criaturas que los ingieran.</string>
+    <string name="char2_winged_pikmin">Ataques débiles: Dado que tienen pequeños cuerpos no causan mucho daño al atacar. Sin embargo, son muy persistentes y, una vez que comienzan a atacar, no pararán de hacerlo.</string>
+    <string name="char2_yellow_pikmin">Capacidad de vuelo elevado: Poseen dos lamelas a los costados de la cabeza que les permiten alcanzar grandes alturas cuando son lanzados. La distancia que recorren es la misma.</string>
+    <string name="char3_bearded_amprat"></string>
+    <string name="char3_blue_pikmin"></string>
+    <string name="char3_bulborb">Ojos prominentes: Han desarrollado globos oculares prominentes que les permiten tener una mejor visión nocturna, pero, debido al gran tamaño que han alcanzado, les es imposible cerrarlos por completo. La forma en la que estas criaturas parpadean es por medio de la expansión y contracción del iris.</string>
+    <string name="char3_empress_bulblax"></string>
+    <string name="char3_glow_pikmin">Comportamiento inusual: Muestran comportamientos que no se observan en otras criaturas. Por ejemplo, pueden teletransportarse a lugares remotos. También tienen la capacidad de fusionarse en grupo para formar una esfera de luz intensa.</string>
+    <string name="char3_ice_pikmin"></string>
+    <string name="char3_joustmite"></string>
+    <string name="char3_lumiknoll">Néctar luminoso: Segregan un componente rico en enzimas de degradación.</string>
+    <string name="char3_peckish_aristocrab"></string>
+    <string name="char3_puckering_blinnow">Coloración durante el apareamiento: Durante la época de apareamiento sus costados normalmente de color amarillo, se vuelven de color rosa fuerte.</string>
+    <string name="char3_puffy_blowhog"></string>
+    <string name="char3_purple_pikmin">Nacen en el subsuelo: Solo nacen en el subsuelo al ser lanzados en brotes rebotadores violetas. Este proceso es similar al de los Pikmin blancos al ser lanzados a los brotes rebotadores marfil.</string>
+    <string name="char3_pyroclasmic_slooch"></string>
+    <string name="char3_red_pikmin"></string>
+    <string name="char3_rock_pikmin">No adherentes: Gracias a la superficie áspera de sus cuerpos, no se pueden adherir a criaturas enemigas y, por el contrario, se lanzan hacia ellas para atacar con todo el cuerpo.</string>
+    <string name="char3_skeeterskate"></string>
+    <string name="char3_skitter_leaf"></string>
+    <string name="char3_skutterchuck"></string>
+    <string name="char3_swooping_snitchbug"></string>
+    <string name="char3_toady_bloyster"></string>
+    <string name="char3_waddlepus"></string>
+    <string name="char3_waterwraith">Características bípedas: Se han reportado instancias en las que se vieron caminando en dos patas.</string>
+    <string name="char3_white_pikmin">Velocidad: Son los más veloces de todos los Pikmin. Sus pequeños cuerpos no causan mucho daño al atacar.</string>
+    <string name="char3_winged_pikmin"></string>
+    <string name="char3_yellow_pikmin">Excelentes cavadores: Cavan más rápido que otros tipos de Pikmin.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

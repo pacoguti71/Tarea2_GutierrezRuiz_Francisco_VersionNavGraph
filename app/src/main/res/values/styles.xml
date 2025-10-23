@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Imagen del Pikmin en las tarjetas individuales -->
+    <style name="ImagenCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+<!-- Nombre del Pikmin en las tarjetas individuales -->
+    <style name="NombreCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Tablas de los campos de la pantalla detalles de pikmin -->
+    <style name="TablasDetalle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Nombre del Pikmin de la pantalla detalles de pikmin-->
+    <style name="NombreDetalle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/verde_pikmin</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/pikminneue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- Nombre científico del Pikmin de la pantalla detalles de pikmin -->
+    <style name="NombreCientificoDetalle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- Imagen del Pikmin de la pantalla detalles de pikmin -->
+    <style name="ImagenDetalle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Etiquetas de los campos de la pantalla detalles de pikmin -->
+    <style name="EtiquetasDetalle">
+        <item name="android:textColor">@color/verde_oscuro</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">@font/bebas_neue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Familia del Pikmin de la pantalla detalles de pikmin -->
+    <style name="FamiliaDetalle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/pikminneue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- CheckBox del tipo de Pikmin de la pantalla detalles de pikmin -->
+    <style name="CheckBoxDetalle">
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- TextViews con contenido enmarcado de la pantalla detalles de pikmin -->
+    <style name="TextoConBorde">
+        <item name="android:background">@drawable/border_textview</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+</resources>

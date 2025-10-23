@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base para la aplicación -->
+    <style name="Base.Theme.Pikmin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores -->
+        <!-- Color primario: Es el color principal usado en componentes clave como la Toolbar. -->
+        <item name="colorPrimary">@color/verde_pikmin</item>
+        <!-- Color del texto y los iconos que aparecen sobre el color primario. -->
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Contenedor primario: Un tono más suave del color primario, usado para fondos de componentes que necesitan menos énfasis. -->
+        <item name="colorPrimaryContainer">@color/verde_oscuro</item>
+        <!-- Color del texto y los iconos sobre el color del contenedor primario. -->
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <!-- Color secundario: Usado para acentuar partes de la UI, como botones flotantes o controles activos. -->
+        <item name="colorSecondary">@color/verde_pikmin</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Atributo para el color de las superficies principales (fondos de pantalla) -->
+        <item name="colorSurface">@color/crema</item>
+        <!-- Color del texto que va SOBRE las superficies (suele ser negro en modo día) -->
+        <item name="colorOnSurface">@color/black</item>
+
+        <item name ="android:windowSplashScreenBackground">@color/white</item>
+        <item name ="android:windowSplashScreenAnimatedIcon">@drawable/pantalla_splash</item>
+        <item name ="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name ="android:windowSplashScreenIconBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- Tema personalizado para la aplicación. Hereda del base. Se usa en el manifest. -->
+    <style name="Pikmin" parent="Base.Theme.Pikmin" />
+
+</resources>

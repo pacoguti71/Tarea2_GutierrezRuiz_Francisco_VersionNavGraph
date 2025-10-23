@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-43:/layout/activity_splash.xml",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-46:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-43:/layout/fragment_ajustes.xml",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-46:/layout/fragment_ajustes.xml"
+    },
+    {
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-43:/layout/fragment_detalle_pikmin.xml",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-46:/layout/fragment_detalle_pikmin.xml"
+    },
+    {
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-43:/layout/item_cardview_layout.xml",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-46:/layout/item_cardview_layout.xml"
+    }
+]

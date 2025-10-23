@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base para la aplicación en MODO NOCHE -->
+    <style name="Base.Theme.Pikmin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores para el modo oscuro -->
+        <!-- Color primario: verde más oscuro como principal. -->
+        <item name="colorPrimary">@color/verde_pikmin</item>
+        <!-- Color del texto sobre el primario: para que se lea sobre el fondo oscuro. -->
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Contenedor primario: Un tono aún más oscuro -->
+        <item name="colorPrimaryContainer">@color/negro_fondo_oscuro</item>
+        <!-- Color del texto sobre el contenedor: para que se lea bien. -->
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <!-- Color secundario: verde más claro para los acentos. -->
+        <item name="colorSecondary">@color/verde_pikmin</item>
+        <!-- Color del texto sobre el secundario: para que se lea sobre el verde claro. -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Atributo para el color de las superficies principales (fondos de pantalla) -->
+        <item name="colorSurface">@color/negro_fondo_oscuro</item>
+        <!-- Color del texto SOBRE las superficies (debe ser blanco en modo noche) -->
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>
