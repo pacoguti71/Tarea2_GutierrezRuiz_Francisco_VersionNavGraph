@@ -12,7 +12,6 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.appbar.MaterialToolbar;
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R;
 import java.lang.Deprecated;
@@ -26,9 +25,6 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final ConstraintLayout main;
 
   @NonNull
-  public final RecyclerView recyclerView;
-
-  @NonNull
   public final MaterialToolbar toolbar;
 
   @NonNull
@@ -38,12 +34,11 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final TextView toolbarTitle;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      FrameLayout fragmentContainer, ConstraintLayout main, RecyclerView recyclerView,
-      MaterialToolbar toolbar, ImageView toolbarLogo, TextView toolbarTitle) {
+      FrameLayout fragmentContainer, ConstraintLayout main, MaterialToolbar toolbar,
+      ImageView toolbarLogo, TextView toolbarTitle) {
     super(_bindingComponent, _root, _localFieldCount);
     this.fragmentContainer = fragmentContainer;
     this.main = main;
-    this.recyclerView = recyclerView;
     this.toolbar = toolbar;
     this.toolbarLogo = toolbarLogo;
     this.toolbarTitle = toolbarTitle;

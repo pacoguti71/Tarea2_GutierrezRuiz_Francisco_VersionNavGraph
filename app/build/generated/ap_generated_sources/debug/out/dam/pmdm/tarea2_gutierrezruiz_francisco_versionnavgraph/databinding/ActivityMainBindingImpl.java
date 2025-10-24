@@ -17,8 +17,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.toolbar, 1);
         sViewsWithIds.put(R.id.toolbarLogo, 2);
         sViewsWithIds.put(R.id.toolbarTitle, 3);
-        sViewsWithIds.put(R.id.recyclerView, 4);
-        sViewsWithIds.put(R.id.fragmentContainer, 5);
+        sViewsWithIds.put(R.id.fragmentContainer, 4);
     }
     // views
     // variables
@@ -27,13 +26,12 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.FrameLayout) bindings[5]
+            , (android.widget.FrameLayout) bindings[4]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[4]
             , (com.google.android.material.appbar.MaterialToolbar) bindings[1]
             , (android.widget.ImageView) bindings[2]
             , (android.widget.TextView) bindings[3]

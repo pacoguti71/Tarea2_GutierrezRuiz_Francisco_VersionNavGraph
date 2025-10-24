@@ -4107,6 +4107,7 @@ int id radio 0x7f090190
 int id ratio 0x7f090191
 int id rectangles 0x7f090192
 int id recyclerView 0x7f090193
+int id recyclerViewLayout 0x7f09022f
 int id report_drawn 0x7f090194
 int id retreat 0x7f090195
 int id reverseSawtooth 0x7f090196
@@ -4400,6 +4401,7 @@ int layout design_text_input_end_icon 0x7f0c002c
 int layout design_text_input_start_icon 0x7f0c002d
 int layout fragment_ajustes 0x7f0c002e
 int layout fragment_detalle_pikmin 0x7f0c002f
+int layout fragment_listado_pikmins 0x7f0c0073
 int layout ime_base_split_test_activity 0x7f0c0030
 int layout ime_secondary_split_test_activity 0x7f0c0031
 int layout item_cardview_layout 0x7f0c0032

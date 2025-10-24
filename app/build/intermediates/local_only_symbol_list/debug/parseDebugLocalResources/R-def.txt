@@ -63,6 +63,7 @@ id nombre
 id nombreCientificoDetalle
 id nombreDetalle
 id recyclerView
+id recyclerViewLayout
 id switchIdioma
 id switchTema
 id toolbar
@@ -72,6 +73,7 @@ layout activity_main
 layout activity_splash
 layout fragment_ajustes
 layout fragment_detalle_pikmin
+layout fragment_listado_pikmins
 layout item_cardview_layout
 menu menu
 mipmap ic_launcher
