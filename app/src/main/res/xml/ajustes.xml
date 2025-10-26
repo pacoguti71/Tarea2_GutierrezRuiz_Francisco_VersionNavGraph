@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="idioma"
+        android:title="@string/idioma"
+        android:summary="Cambia el idioma de la aplicación"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="tema"
+        android:title="@string/tema"
+        android:summary="Activa el modo oscuro"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

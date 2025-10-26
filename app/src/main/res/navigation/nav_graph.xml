@@ -27,5 +27,5 @@
         android:id="@+id/ajustesFragment"
         android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments.AjustesFragment"
         android:label="fragment_ajustes"
-        tools:layout="@layout/fragment_ajustes" />
+        tools:layout="@xml/ajustes" />
 </navigation>

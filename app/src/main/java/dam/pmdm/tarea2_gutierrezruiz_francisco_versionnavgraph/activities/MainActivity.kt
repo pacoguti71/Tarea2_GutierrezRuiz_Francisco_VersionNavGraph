@@ -13,7 +13,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.snackbar.Snackbar
-import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.helpers.PreferencesHelper
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ActivityMainBinding
 
@@ -38,6 +37,7 @@ class MainActivity : AppCompatActivity() {
      * @param savedInstanceState Contiene el estado previo de la actividad, si lo hubiera.
      *
      * Este método:
+     * - Configura el modo oscuro según las preferencias del usuario.
      * - Infla el layout mediante View Binding.
      * - Configura los insets de la ventana para respetar barras del sistema.
      * - Inicializa el NavController.
@@ -48,8 +48,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         // Llama al metodo onCreate de la clase padre
         super.onCreate(savedInstanceState)
+
+        // Configura el modo oscuro según las preferencias del usuario
+        val preferencias = androidx.preference.PreferenceManager.getDefaultSharedPreferences(this)
+        // En la variable esModoOscuro se almacena el valor de la preferencia "tema"
+        val esModoOscuro = preferencias.getBoolean("tema", false)
+        // Aplica el modo oscuro según el valor de la preferencia
+        AppCompatDelegate.setDefaultNightMode(
+            if (esModoOscuro) AppCompatDelegate.MODE_NIGHT_YES
+            else AppCompatDelegate.MODE_NIGHT_NO
+        )
+
         // Habilita el modo de aristas redondeadas para la barra de estado
         enableEdgeToEdge()
+
         // Infla el diseño de la actividad utilizando el binding. En la variable binding se almacena el diseño inflado con todos sus elementos
         binding = ActivityMainBinding.inflate(layoutInflater)
         // Establece el diseño de la actividad. root es la vista raíz del diseño
@@ -72,9 +84,6 @@ class MainActivity : AppCompatActivity() {
         navController.addOnDestinationChangedListener { _, destination, _ ->
             configurarToolbar(destination.id)
         }
-
-        // Aplica el modo oscuro si es es el que está guardado en las preferencias
-        aplicarModoOscuro()
 
         // Muestra un snackbar con un mensaje de bienvenida
         Snackbar.make(
@@ -163,27 +172,6 @@ class MainActivity : AppCompatActivity() {
                     else -> false
                 }
             }
-        }
-    }
-
-    /**
-     * Aplica el modo oscuro según las preferencias guardadas por el usuario.
-     *
-     * Si la preferencia indica modo oscuro, se aplica; de lo contrario, se aplica el modo claro.
-     * Esto asegura que el tema sea correcto al iniciar la aplicación.
-     */
-    private fun aplicarModoOscuro() {
-        // Crea un objeto PreferencesHelper para gestionar las preferencias del usuario
-        val preferencesHelper = PreferencesHelper(this)
-        // Recupera el estado de la preferencia de modo oscuro
-        val esModoOscuro = preferencesHelper.esModoOscuro()
-        // Comprueba si el modo oscuro está activado y lo aplica. Esto es necesario para que el tema sea correcto al inicio.
-        if (esModoOscuro) {
-            // Si estaba guardado como oscuro, aplica el modo oscuro
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-        } else {
-            // Si no, aplica el modo claro
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         }
     }
 
