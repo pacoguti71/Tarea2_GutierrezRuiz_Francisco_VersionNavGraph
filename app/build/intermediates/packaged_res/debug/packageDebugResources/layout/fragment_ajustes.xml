@@ -8,7 +8,7 @@
     android:background="?android:colorBackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".AjustesFragment">
 
     <!--Switch para la eleccion del idioma. El elemento simple Switch está obsoleto, se reemplaza por MaterialSwitch -->
     <com.google.android.material.materialswitch.MaterialSwitch

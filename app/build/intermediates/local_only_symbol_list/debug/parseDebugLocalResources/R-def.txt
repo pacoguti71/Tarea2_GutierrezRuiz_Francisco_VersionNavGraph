@@ -11,6 +11,7 @@ drawable blue_pikmin
 drawable border_textview
 drawable bulborb
 drawable empress_bulblax
+drawable flecha_atras_icon
 drawable glow_pikmin
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -41,6 +42,8 @@ font bitcount
 font pikminneue
 id action_acercade
 id action_ajustes
+id action_listadoPikminsFragment_to_detallePikminFragment
+id ajustesFragment
 id caracteristica1Detalle
 id caracteristica2Detalle
 id caracteristica3Detalle
@@ -48,8 +51,8 @@ id checkBoxAcuatico
 id checkBoxAereo
 id checkBoxTerrestre
 id descripcionDetalle
+id detallePikminFragment
 id familiaDetalle
-id fragmentContainer
 id imageView
 id imagen
 id imagenDetalle
@@ -58,7 +61,10 @@ id label_caracteristica2
 id label_caracteristica3
 id label_descripcion
 id label_familia
+id listadoPikminsFragment
 id main
+id nav_graph
+id nav_host_fragment
 id nombre
 id nombreCientificoDetalle
 id nombreDetalle
@@ -79,6 +85,7 @@ menu menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+navigation nav_graph
 string acerca_de
 string acuatico
 string aereo

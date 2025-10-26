@@ -5,14 +5,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ItemCardviewLayoutBinding
 
-/**
- * Adaptador personalizado para un [RecyclerView] diseñado para mostrar una lista de objetos [Pikmin].
- */
 class PikminAdapter(
     // Lista de objetos Pikmin que se mostrarán en el RecyclerView
     private val elementos: List<Pikmin>,
     // Lambda que se ejecutará cuando se haga clic en un elemento de la lista
-    private val onItemClick: (Pikmin) -> Unit
+    private val onPikminClicked: (Pikmin) -> Unit
 ) : RecyclerView.Adapter<PikminViewHolder>() {
 
     // Sobreescribe la función onCreateViewHolder para crear un nuevo ViewHolder
@@ -32,8 +29,9 @@ class PikminAdapter(
         // Se llama a la función bind del ViewHolder para establecer los datos del pikmin
         holder.bind(pikmin)
         // Establece el OnClickListener en la vista del elemento.
-        holder.itemView.setOnClickListener { onItemClick(pikmin) }
-    }
+        holder.itemView.setOnClickListener {
+            onPikminClicked(pikmin)
+        }    }
 
     // Sobrescribe la función getItemCount para devolver la cantidad de elementos en la lista
     override fun getItemCount(): Int = elementos.size

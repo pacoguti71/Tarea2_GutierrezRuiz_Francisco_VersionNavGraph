@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-42:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-54:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\b52537294a82939067c37af4ddece8d5\\transformed\\appcompat-1.7.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\eb5e37f865a5e7ff6f1d807e9055123c\\transformed\\appcompat-1.7.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

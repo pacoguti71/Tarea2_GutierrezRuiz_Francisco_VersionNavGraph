@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Tema base para la aplicación -->
+    <!-- Tema base para la aplicación. Dejo la NoActionBar porque yo creo una toolbar propia -->
     <style name="Base.Theme.Pikmin" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Colores -->
         <!-- Color primario: Es el color principal usado en componentes clave como la Toolbar. -->

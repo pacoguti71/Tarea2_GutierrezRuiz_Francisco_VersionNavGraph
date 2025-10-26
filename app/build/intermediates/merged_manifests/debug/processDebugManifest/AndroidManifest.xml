@@ -39,9 +39,6 @@
         <activity
             android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.MainActivity"
             android:exported="false" />
-        <activity
-            android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.AjustesActivity"
-            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -57,6 +54,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

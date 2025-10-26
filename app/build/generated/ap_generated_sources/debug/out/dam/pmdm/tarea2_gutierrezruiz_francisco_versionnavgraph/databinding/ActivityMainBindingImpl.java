@@ -17,7 +17,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.toolbar, 1);
         sViewsWithIds.put(R.id.toolbarLogo, 2);
         sViewsWithIds.put(R.id.toolbarTitle, 3);
-        sViewsWithIds.put(R.id.fragmentContainer, 4);
+        sViewsWithIds.put(R.id.nav_host_fragment, 4);
     }
     // views
     // variables
@@ -30,8 +30,8 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.FrameLayout) bindings[4]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (androidx.fragment.app.FragmentContainerView) bindings[4]
             , (com.google.android.material.appbar.MaterialToolbar) bindings[1]
             , (android.widget.ImageView) bindings[2]
             , (android.widget.TextView) bindings[3]

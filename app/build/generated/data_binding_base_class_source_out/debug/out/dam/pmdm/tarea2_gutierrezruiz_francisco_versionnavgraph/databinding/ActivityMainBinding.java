@@ -4,7 +4,6 @@ package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -12,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.fragment.app.FragmentContainerView;
 import com.google.android.material.appbar.MaterialToolbar;
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R;
 import java.lang.Deprecated;
@@ -19,10 +19,10 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
-  public final FrameLayout fragmentContainer;
+  public final ConstraintLayout main;
 
   @NonNull
-  public final ConstraintLayout main;
+  public final FragmentContainerView navHostFragment;
 
   @NonNull
   public final MaterialToolbar toolbar;
@@ -34,11 +34,11 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final TextView toolbarTitle;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      FrameLayout fragmentContainer, ConstraintLayout main, MaterialToolbar toolbar,
+      ConstraintLayout main, FragmentContainerView navHostFragment, MaterialToolbar toolbar,
       ImageView toolbarLogo, TextView toolbarTitle) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.fragmentContainer = fragmentContainer;
     this.main = main;
+    this.navHostFragment = navHostFragment;
     this.toolbar = toolbar;
     this.toolbarLogo = toolbarLogo;
     this.toolbarTitle = toolbarTitle;

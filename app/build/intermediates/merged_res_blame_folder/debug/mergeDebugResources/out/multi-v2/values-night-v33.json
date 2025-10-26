@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-42:/values-night-v33/values-night-v33.xml",
+            "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-54:/values-night-v33/values-night-v33.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\1312e2ee0d06ce4c8a4dc4771828b927\\transformed\\core-splashscreen-1.2.0-rc01\\res\\values-night-v33\\values-night-v33.xml",
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\df91ee53e5aebb55b043a237e6c34dda\\transformed\\core-splashscreen-1.2.0-rc01\\res\\values-night-v33\\values-night-v33.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

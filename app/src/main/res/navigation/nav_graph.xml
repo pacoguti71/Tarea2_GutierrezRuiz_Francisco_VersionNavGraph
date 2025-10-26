@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listadoPikminsFragment">
+
+    <fragment
+        android:id="@+id/detallePikminFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.DetallePikminFragment"
+        android:label="fragment_detalle_pikmin" >
+        <argument
+            android:name="pikminNombre"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listadoPikminsFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.ListadoPikminsFragment"
+        android:label="fragment_listado_pikmins"
+        tools:layout="@layout/fragment_listado_pikmins" >
+        <action
+            android:id="@+id/action_listadoPikminsFragment_to_detallePikminFragment"
+            app:destination="@id/detallePikminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+</navigation>
