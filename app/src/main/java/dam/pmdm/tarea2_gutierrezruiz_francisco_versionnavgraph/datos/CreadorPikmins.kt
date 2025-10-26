@@ -1,4 +1,6 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos
+
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 
 // Usamos 'object' para crear una única instancia (Singleton) accesible desde cualquier lugar.
 object CreadorPikmins {

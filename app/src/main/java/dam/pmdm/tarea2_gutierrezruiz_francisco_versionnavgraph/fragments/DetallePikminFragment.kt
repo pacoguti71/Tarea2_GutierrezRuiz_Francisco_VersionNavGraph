@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,9 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentDetallePikminBinding
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.CreadorPikmins
 
 class DetallePikminFragment : Fragment() {
 

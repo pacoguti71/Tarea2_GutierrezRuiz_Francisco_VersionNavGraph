@@ -1,9 +1,10 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.gestion
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ItemCardviewLayoutBinding
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
 
 class PikminAdapter(
     // Lista de objetos Pikmin que se mostrarán en el RecyclerView

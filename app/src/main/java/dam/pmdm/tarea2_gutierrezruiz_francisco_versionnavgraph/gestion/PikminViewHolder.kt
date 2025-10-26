@@ -1,7 +1,8 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.gestion
 
 import androidx.recyclerview.widget.RecyclerView
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ItemCardviewLayoutBinding
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
 
 /**
  * ViewHolder que utiliza Data Binding para enlazar un objeto [Pikmin] a la vista.

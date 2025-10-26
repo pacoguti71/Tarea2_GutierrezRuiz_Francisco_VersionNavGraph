@@ -6,7 +6,7 @@
         <!-- Declara una variable llamada 'pikmin' que recibirá un objeto de tipo Pikmin -->
         <variable
             name="pikmin"
-            type="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.Pikmin" />
+            type="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin" />
     </data>
 
     <!--Layout principal que envuelve los distintos elementos-->

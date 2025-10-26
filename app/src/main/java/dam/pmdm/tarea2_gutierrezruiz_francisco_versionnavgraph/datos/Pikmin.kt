@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos
 
 data class Pikmin(
     val id:String,

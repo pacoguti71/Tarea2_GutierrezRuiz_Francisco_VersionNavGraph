@@ -11,7 +11,7 @@ ni hay que incluir la ToolBar porque ya está en el Fragment principal-->
     android:clipToPadding="false"
     android:fillViewport="true"
     android:paddingBottom="24dp"
-    tools:context=".DetallePikminFragment">
+    tools:context=".fragments.DetallePikminFragment">
 
     <!--LinearLayout que contiene todos los elementos-->
     <LinearLayout

@@ -1,246 +1,242 @@
 [
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_pyroclasmic_slooch.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\pyroclasmic_slooch.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_joustmite.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\joustmite.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_pyroclasmic_slooch.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/pyroclasmic_slooch.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_waddlepus.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\waddlepus.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\ic_launcher_background.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_item_cardview_layout.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/item_cardview_layout.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\xml\\backup_rules.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\activity_main.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_toady_bloyster.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/toady_bloyster.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\font_bebas_neue.ttf.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\font\\bebas_neue.ttf"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_white_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/white_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_icono.png.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/icono.png"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_blue_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\blue_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_waddlepus.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/waddlepus.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\activity_splash.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/xml_data_extraction_rules.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_puckering_blinnow.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\puckering_blinnow.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_puffy_blowhog.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/puffy_blowhog.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/menu_menu.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/menu/menu.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_fragment_detalle_pikmin.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/fragment_detalle_pikmin.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_item_cardview_layout.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\item_cardview_layout.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_red_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/red_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_pantalla_splash.png.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\pantalla_splash.png"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/xml_backup_rules.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_waterwraith.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\waterwraith.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_skitter_leaf.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/skitter_leaf.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_blue_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/blue_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_icono.png.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\icono.png"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_bearded_amprat.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\bearded_amprat.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_ice_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/ice_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_yellow_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/yellow_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\menu\\menu.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_skeeterskate.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/skeeterskate.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_border_textview.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/border_textview.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_white_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\white_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_flecha_atras_icon.png.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\flecha_atras_icon.png"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_fragment_ajustes.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/fragment_ajustes.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_fragment_listado_pikmins.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\fragment_listado_pikmins.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_lumiknoll.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/lumiknoll.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_glow_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\glow_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_peckish_aristocrab.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/peckish_aristocrab.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_purple_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\purple_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_rock_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/rock_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_activity_splash.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_winged_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\winged_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_empress_bulblax.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/empress_bulblax.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_red_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\red_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/font_pikminneue.otf.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/font/pikminneue.otf"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_ice_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\ice_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/font_bebas_neue.ttf.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/font/bebas_neue.ttf"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_purple_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/purple_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\font_bitcount.ttf.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\font\\bitcount.ttf"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_flecha_atras_icon.png.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/flecha_atras_icon.png"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_skitter_leaf.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\skitter_leaf.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/font_bitcount.ttf.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/font/bitcount.ttf"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_peckish_aristocrab.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\peckish_aristocrab.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_glow_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/glow_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_bulborb.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\bulborb.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_skeeterskate.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\skeeterskate.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_swooping_snitchbug.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/swooping_snitchbug.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_empress_bulblax.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\empress_bulblax.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_fragment_listado_pikmins.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/fragment_listado_pikmins.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_swooping_snitchbug.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\swooping_snitchbug.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_bulborb.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/bulborb.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_winged_pikmin.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/winged_pikmin.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_skutterchuck.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/skutterchuck.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_fragment_detalle_pikmin.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\fragment_detalle_pikmin.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_puffy_blowhog.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\puffy_blowhog.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_bearded_amprat.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/bearded_amprat.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_rock_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\rock_pikmin.webp"
-    },
-    {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_waterwraith.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/waterwraith.webp"
     },
     {
         "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/layout_activity_main.xml.flat",
         "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_border_textview.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\border_textview.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_yellow_pikmin.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\yellow_pikmin.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\font_pikminneue.otf.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\font\\pikminneue.otf"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_toady_bloyster.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\toady_bloyster.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_puckering_blinnow.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/puckering_blinnow.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_lumiknoll.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\lumiknoll.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_joustmite.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/joustmite.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\xml\\data_extraction_rules.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/drawable_pantalla_splash.png.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/drawable/pantalla_splash.png"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\layout_fragment_ajustes.xml.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\layout\\fragment_ajustes.xml"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:\\drawable_skutterchuck.webp.flat",
-        "source": "C:\\Users\\pacoguti\\.gradle\\daemon\\8.13\\dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:\\drawable\\skutterchuck.webp"
+        "merged": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-debug-56:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-main-58:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     }
 ]

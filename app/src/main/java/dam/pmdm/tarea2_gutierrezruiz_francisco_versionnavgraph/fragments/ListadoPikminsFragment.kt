@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.gestion.PikminAdapter
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentListadoPikminsBinding
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.CreadorPikmins
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
 
 class ListadoPikminsFragment : Fragment() {
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/detallePikminFragment"
-        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.DetallePikminFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments.DetallePikminFragment"
         android:label="fragment_detalle_pikmin" >
         <argument
             android:name="pikminNombre"
@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/listadoPikminsFragment"
-        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.ListadoPikminsFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments.ListadoPikminsFragment"
         android:label="fragment_listado_pikmins"
         tools:layout="@layout/fragment_listado_pikmins" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/ajustesFragment"
-        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.AjustesFragment"
+        android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments.AjustesFragment"
         android:label="fragment_ajustes"
         tools:layout="@layout/fragment_ajustes" />
 </navigation>

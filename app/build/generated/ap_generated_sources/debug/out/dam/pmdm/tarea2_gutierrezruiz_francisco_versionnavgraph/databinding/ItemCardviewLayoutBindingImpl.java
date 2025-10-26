@@ -1,6 +1,8 @@
 package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding;
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R;
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.BR;
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -62,7 +64,7 @@ public class ItemCardviewLayoutBindingImpl extends ItemCardviewLayoutBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.pikmin == variableId) {
-            setPikmin((dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.Pikmin) variable);
+            setPikmin((Pikmin) variable);
         }
         else {
             variableSet = false;
@@ -70,7 +72,7 @@ public class ItemCardviewLayoutBindingImpl extends ItemCardviewLayoutBinding  {
             return variableSet;
     }
 
-    public void setPikmin(@Nullable dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.Pikmin Pikmin) {
+    public void setPikmin(@Nullable Pikmin Pikmin) {
         this.mPikmin = Pikmin;
     }
 

@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.PreferencesHelper
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentAjustesBinding
 import java.util.Locale
 
@@ -28,7 +29,7 @@ class AjustesFragment : Fragment() {
     private val binding get() = _binding!!
 
     /**
-     * Instancia de [PreferencesHelper] para gestionar el almacenamiento y recuperación
+     * Instancia de [dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.PreferencesHelper] para gestionar el almacenamiento y recuperación
      * de las preferencias del usuario (modo oscuro e idioma). Se inicializa en [onViewCreated].
      */
     private lateinit var preferencesHelper: PreferencesHelper

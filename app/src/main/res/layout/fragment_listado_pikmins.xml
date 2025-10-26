@@ -5,7 +5,7 @@
     android:id="@+id/recyclerViewLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListadoPikminsFragment">
+    tools:context=".fragments.ListadoPikminsFragment">
 
     <!--RecyclerView para mostrar la lista de elementos Pikmin-->
     <androidx.recyclerview.widget.RecyclerView
