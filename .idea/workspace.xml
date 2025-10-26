@@ -49,9 +49,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6742da2-92f3-462e-b4c9-e6babff26b2c" name="Changes" comment="Kdocs y pequeños detalles">
+    <list default="true" id="e6742da2-92f3-462e-b4c9-e6babff26b2c" name="Changes" comment="Eliminacion de errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/dam/pmdm/tarea2_gutierrezruiz_francisco_versionnavgraph/fragments/ListadoPikminsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dam/pmdm/tarea2_gutierrezruiz_francisco_versionnavgraph/fragments/ListadoPikminsFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761475814158</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Eliminacion de errores">
+      <option name="closed" value="true" />
+      <created>1761476319413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761476319413</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +306,8 @@
     <MESSAGE value="Creación del recyclerview como fragment independiente" />
     <MESSAGE value="Paquetes" />
     <MESSAGE value="Kdocs y pequeños detalles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kdocs y pequeños detalles" />
+    <MESSAGE value="Eliminacion de errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminacion de errores" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

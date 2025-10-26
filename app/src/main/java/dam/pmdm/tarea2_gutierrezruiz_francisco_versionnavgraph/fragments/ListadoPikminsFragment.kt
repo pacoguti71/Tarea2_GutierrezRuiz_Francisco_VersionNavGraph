@@ -12,6 +12,7 @@ import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentListadoPikminsBinding
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.CreadorPikmins
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
+import androidx.recyclerview.widget.RecyclerView
 
 /**
  * Fragment que muestra un listado de todos los [Pikmin] en un [RecyclerView].
