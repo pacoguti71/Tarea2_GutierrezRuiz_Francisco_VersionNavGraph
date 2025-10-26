@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="3.0 - NavGraph" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Pikmin" >
         <activity
-            android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.SplashActivity"
+            android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.activities.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.MainActivity"
+            android:name="dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.activities.MainActivity"
             android:exported="false" />
 
         <provider

@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.Pikmin;
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R;
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin;
 import java.lang.Deprecated;
 import java.lang.Object;
 

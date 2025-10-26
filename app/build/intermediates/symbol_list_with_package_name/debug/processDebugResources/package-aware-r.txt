@@ -4720,7 +4720,6 @@ string desc_yellow_pikmin
 string dest_title
 string detalle_pikmin
 string empress_bulblax
-string empty_string
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4752,7 +4751,6 @@ string fam_white_pikmin
 string fam_winged_pikmin
 string fam_yellow_pikmin
 string glow_pikmin
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string ice_pikmin
 string icon_content_description

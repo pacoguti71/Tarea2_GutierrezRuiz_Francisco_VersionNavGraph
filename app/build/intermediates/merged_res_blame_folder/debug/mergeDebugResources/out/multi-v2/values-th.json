@@ -4,24 +4,7 @@
             "outputFile": "dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.app-mergeDebugResources-54:/values-th/values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\ff54438cc7e427a56f99106b8f0c94cf\\transformed\\core-1.17.0\\res\\values-th\\values-th.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,254,352,450,553,658,770",
-                        "endColumns": "95,102,97,97,102,104,111,100",
-                        "endOffsets": "146,249,347,445,548,653,765,866"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,40,41,42,43,123",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3278,3374,3477,3575,3673,3776,3881,10224",
-                        "endColumns": "95,102,97,97,102,104,111,100",
-                        "endOffsets": "3369,3472,3570,3668,3771,3876,3988,10320"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\c156bb4be485dabbbe78188e659f66e4\\transformed\\material-1.13.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\512044bc1ebbe0857fc5cc315f5376c7\\transformed\\material-1.13.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\8ea2a24929e75efec263377e77d8528a\\transformed\\navigation-ui-2.9.5\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\d034e094e10815e535eb2a462fa175be\\transformed\\core-1.17.0\\res\\values-th\\values-th.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,159",
-                        "endColumns": "103,113",
-                        "endOffsets": "154,268"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,352,450,553,658,770",
+                        "endColumns": "95,102,97,97,102,104,111,100",
+                        "endOffsets": "146,249,347,445,548,653,765,866"
                     },
                     "to": {
-                        "startLines": "116,117",
-                        "startColumns": "4,4",
-                        "startOffsets": "9614,9718",
-                        "endColumns": "103,113",
-                        "endOffsets": "9713,9827"
+                        "startLines": "37,38,39,40,41,42,43,123",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3278,3374,3477,3575,3673,3776,3881,10224",
+                        "endColumns": "95,102,97,97,102,104,111,100",
+                        "endOffsets": "3369,3472,3570,3668,3771,3876,3988,10320"
                     }
                 },
                 {
-                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\eb5e37f865a5e7ff6f1d807e9055123c\\transformed\\appcompat-1.7.1\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\d836d8a5e218e7d732596a88e4d78821\\transformed\\appcompat-1.7.1\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "335,440,533,641,726,828,938,1016,1093,1184,1277,1368,1462,1562,1655,1750,1844,1935,2026,2107,2210,2308,2406,2509,2615,2716,2869,9909",
                         "endColumns": "104,92,107,84,101,109,77,76,90,92,90,93,99,92,94,93,90,90,80,102,97,97,102,105,100,152,94,81",
                         "endOffsets": "435,528,636,721,823,933,1011,1088,1179,1272,1363,1457,1557,1650,1745,1839,1930,2021,2102,2205,2303,2401,2504,2610,2711,2864,2959,9986"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\pacoguti\\.gradle\\caches\\8.13\\transforms\\782583aacd2001df60519571a2ee5107\\transformed\\navigation-ui-2.9.5\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,159",
+                        "endColumns": "103,113",
+                        "endOffsets": "154,268"
+                    },
+                    "to": {
+                        "startLines": "116,117",
+                        "startColumns": "4,4",
+                        "startOffsets": "9614,9718",
+                        "endColumns": "103,113",
+                        "endOffsets": "9713,9827"
                     }
                 }
             ]

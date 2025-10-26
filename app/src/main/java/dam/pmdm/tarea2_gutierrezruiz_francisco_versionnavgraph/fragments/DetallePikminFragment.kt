@@ -6,12 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
-import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentAjustesBinding
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentDetallePikminBinding
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.CreadorPikmins
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
 
 /**
  * Fragment que muestra los detalles completos de un [Pikmin] seleccionado.

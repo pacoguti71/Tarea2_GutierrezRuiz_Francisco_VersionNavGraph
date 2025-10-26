@@ -5,11 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.helpers.PreferencesHelper
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentAjustesBinding
 import java.util.Locale

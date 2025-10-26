@@ -20,7 +20,6 @@
     <string name="tema">Tema oscuro</string>
     <string name="idioma">Español</string>
     <string name="detalle_pikmin">Detalle Pikmin</string>
-    <string name="empty_string" translatable="false"></string>
 
     <!-- Pikmin names -->
     <string name="bearded_amprat">Estaticán lanudo</string>
@@ -206,7 +205,4 @@
     <string name="char3_white_pikmin">Velocidad: Son los más veloces de todos los Pikmin. Sus pequeños cuerpos no causan mucho daño al atacar.</string>
     <string name="char3_winged_pikmin"></string>
     <string name="char3_yellow_pikmin">Excelentes cavadores: Cavan más rápido que otros tipos de Pikmin.</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 </resources>

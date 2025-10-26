@@ -115,7 +115,7 @@
     <string name="cn_white_pikmin" translatable="false">Pikminidae venalbius</string>
     <string name="cn_winged_pikmin" translatable="false">Pikminidae volarosa</string>
     <string name="cn_yellow_pikmin" translatable="false">Pikminidae auribus</string>
-    <string name="desarrollado_por">Aplicación desarrollada por Francisco Gutiérrez Ruiz</string>
+    <string name="desarrollado_por">Aplicación desarrollada por\nFrancisco Gutiérrez Ruiz</string>
     <string name="desc_bearded_amprat">Clase de ratón capaz de generar energía estática frotando los vellos de su barba. Además son mamíferos y, por lo tanto, bastante inusuales en este planeta. Es necesario realizar más investigaciones sobre estas criaturas dado que su mera existencia podría dar lugar al surgimiento de una taxonomía de fauna completamente nueva.</string>
     <string name="desc_blue_pikmin">Cuerpo de color azul y expresión facial indescifrable. A diferencia de la mayoría de las especies radiambulares, que no pueden respirar bajo el agua, los Pikmin azules cuentan con branquias que se confunden con una boca. Esas branquias les permiten sobrevivir en ecosistemas acuáticos y terrestres.</string>
     <string name="desc_bulborb">Tiene el abdomen escarlata salpicado de motas blancas. Sus hábitos son nocturnos, por lo que de día suelen encontrarse durmiendo. Si son despertados, intentarán engullir cualquier cosa que tengan enfrente. Hay una gran variedad de gusarapérridos, y se considera que están en la cima de la cadena alimenticia.</string>
@@ -143,7 +143,6 @@
     <string name="desc_yellow_pikmin">Cuerpo de color amarillo y un par de lamelas semejantes a orejas que les permiten cavar con rapidez y alcanzar grandes alturas al ser lanzados. Otro rasgo que los distingue es la capacidad de sus cuerpos de conducir la electricidad. Además no solo son resistentes a ella, sino que parecen disfrutarla.</string>
     <string name="detalle_pikmin">Detalle Pikmin</string>
     <string name="empress_bulblax">Bulbo emperatriz</string>
-    <string name="empty_string" translatable="false"/>
     <string name="fam_bearded_amprat">Estatidentios</string>
     <string name="fam_blue_pikmin">Pikmin</string>
     <string name="fam_bulborb">Gusarapérridos</string>
@@ -170,7 +169,6 @@
     <string name="fam_winged_pikmin">Pikmin</string>
     <string name="fam_yellow_pikmin">Pikmin</string>
     <string name="glow_pikmin">Pikmin luminoso</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ice_pikmin">Pikmin gélido</string>
     <string name="idioma">Español</string>
     <string name="imagen_del_pikmin">Imagen del pikmin</string>

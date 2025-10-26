@@ -223,7 +223,6 @@ string desc_winged_pikmin
 string desc_yellow_pikmin
 string detalle_pikmin
 string empress_bulblax
-string empty_string
 string fam_bearded_amprat
 string fam_blue_pikmin
 string fam_bulborb
@@ -250,7 +249,6 @@ string fam_white_pikmin
 string fam_winged_pikmin
 string fam_yellow_pikmin
 string glow_pikmin
-string hello_blank_fragment
 string ice_pikmin
 string idioma
 string imagen_del_pikmin
