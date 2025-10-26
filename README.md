@@ -1,31 +1,12 @@
-# 🌱 Aplicación Pikmin - Android
+## 📱 Tarea 2 - Navegación con NavGraph
+Este proyecto es parte de la asignatura de Desarrollo de Aplicaciones Multiplataforma. Se trata de una aplicación Android que implementa navegación entre pantallas utilizando NavGraph.
 
-Aplicación Android que muestra una **lista de Pikmin** y permite consultar los **detalles** de cada uno.  
-Incluye una **toolbar** con las opciones **"Acerca de"** y **"Ajustes"**, con un diseño limpio y responsivo.
 
----
+## 🧭 Objetivo
+El objetivo principal es aprender a estructurar una aplicación Android moderna con navegación declarativa, utilizando fragmentos y un gráfico de navegación (nav_graph.xml) para gestionar las transiciones entre pantallas.
 
-## 📸 Capturas de pantalla
 
-| Lista de Pikmin | Detalle del Pikmin | Menú de opciones |
-|------------------|--------------------|------------------|
-| ![Lista](screenshots/lista_pikmin.png) | ![Detalle](screenshots/detalle_pikmin.png) | ![Menú](screenshots/menu_toolbar.png) |
-
----
-
-## 📱 Características principales
-
-- **Lista de Pikmin:** muestra un `RecyclerView` con nombre, tipo e imagen de cada Pikmin.  
-- **Pantalla de detalles:** al pulsar un Pikmin, se abre una `Activity` con su descripción e imagen ampliada.  
-- **Toolbar con menú:**  
-  - **Acerca de:** muestra información del autor o de la app.  
-  - **Ajustes:** permite modificar configuraciones básicas del usuario.  
-- **Diseño adaptativo:** interfaz optimizada para distintos tamaños de pantalla.
-
----
-
-## 🧩 Tecnologías utilizadas
-
+## 🛠️ Tecnologías utilizadas
 - **Lenguaje:** Kotlin  
 - **Entorno:** Android Studio  
 - **Componentes:**  
@@ -34,71 +15,76 @@ Incluye una **toolbar** con las opciones **"Acerca de"** y **"Ajustes"**, con un
   - `Intent` y `Bundle`  
   - `Toolbar` con menú XML  
   - `ConstraintLayout`  
-  - Material Design Components  
 
----
 
-## 📂 Estructura del proyecto
+## 📸 Capturas de pantalla
+| Lista de Pikmin | Detalle del Pikmin | Menú de opciones |
+|------------------|--------------------|------------------|
+| ![Lista](screenshots/lista_pikmin.png) | ![Detalle](screenshots/detalle_pikmin.png) | ![Menú](screenshots/menu_toolbar.png) |
 
-AndroidManifest.xml
 
-java/dam/pmdm/tarea2_gutierrezruiz_francisco/AjustesActivity.kt
-java/dam/pmdm/tarea2_gutierrezruiz_francisco/DetallePikminActivity.kt
-java/dam/pmdm/tarea2_gutierrezruiz_francisco/MainActivity.kt
-java/dam/pmdm/tarea2_gutierrezruiz_francisco/Pikmin.kt
-java/dam/pmdm/tarea2_gutierrezruiz_francisco/PikminAdapter.kt
+## 📁 Estructura del proyecto
+La aplicación está organizada en paquetes que agrupan las clases según su funcionalidad, facilitando la mantenibilidad y escalabilidad del código:
 
-res/font/bebas_neue.ttf
-res/font/bitcount.ttf
-res/font/pikminneue.otf
+# 🧩 activities
+Contiene las actividades principales de la app:
 
-res/layout/activity_ajustes.xml
-res/layout/activity_detalle_pikmin.xml
-res/layout/activity_main.xml
-res/layout/item_layout.xml
+- MainActivity.kt: Punto de entrada de la aplicación, aloja el NavHostFragment para la navegación.
 
-res/menu/menu.xml
+- SplashActivity.kt: Muestra una pantalla de bienvenida o carga inicial antes de redirigir al contenido principal.
 
-res/values-en/strings.xml
-res/values/strings.xml
-res/values/strings.xml
-res/values-en/strings.xml
+# 📦 adapter
+Encargado de la gestión de listas y vistas en RecyclerView:
 
-res/values/themes.xml
-res/values-night/themes.xml
-res/values/themes.xml
-res/values-night/themes.xml
+- PikminAdapter.kt: Adaptador que gestiona la visualización de los objetos Pikmin en una lista.
 
-res/values/colors.xml
+- PikminViewHolder.kt: ViewHolder que encapsula la lógica de cada ítem de la lista.
 
-res/values/styles.xml
+# 📚 datos
+Define los modelos de datos y su creación:
 
----
+- CreadorPikmins.kt: Clase encargada de generar instancias de Pikmin con datos simulados.
 
-## 🚀 Ejecución del proyecto
+- Pikmin.kt: Modelo de datos que representa un Pikmin con sus atributos.
 
-1. Clona el repositorio:
-   ```bash
-[   git clone https://github.com/pacoguti71/Tarea2_GutierrezRuiz_Francisco.git
-](https://github.com/pacoguti71/Tarea2_GutierrezRuiz_Francisco_VersionFragments.git)
-2. Abre el proyecto con Android Studio.
-3. Espera la sincronización de Gradle.
-4. Ejecuta la aplicación en un emulador o dispositivo físico con Android 8.0 o superior.
+# 🧱 fragments
+Fragmentos que representan las distintas pantallas de la app:
 
-🧠 Conceptos reforzados
+- AjustesFragment.kt: Pantalla de configuración donde el usuario puede modificar preferencias.
 
-Este proyecto refuerza el uso de:
-- Arquitectura de una app Android con varias Activities.
-- Implementación de listas dinámicas mediante RecyclerView y adaptadores personalizados.
-- Comunicación entre Activities mediante Intent y Bundle.
-- Creación y manejo de menús con Toolbar.
-- Diseño de interfaz con XML y principios de Material Design.
+- DetallePikminFragment.kt: Muestra información detallada de un Pikmin seleccionado.
 
-🧑‍💻 Autor
+- ListadoPikminsFragment.kt: Lista todos los Pikmins disponibles en la aplicación.
 
+# 🛠️ helpers
+Utilidades y clases de apoyo:
+
+- PreferencesHelper.kt: Clase que facilita el acceso y gestión de preferencias compartidas (SharedPreferences).
+
+
+## 🚀 Cómo ejecutar
+Clona el repositorio:
+
+bash
+
+git clone https://github.com/pacoguti71/Tarea2_GutierrezRuiz_Francisco_VersionNavGraph.git
+
+Abre el proyecto en Android Studio.
+
+Sincroniza el proyecto con Gradle.
+
+Ejecuta la app en un emulador o dispositivo físico.
+
+
+## 📱 Características principales
+- **Lista de Pikmin:** muestra un `RecyclerView` con nombre, tipo e imagen de cada Pikmin.  
+- **Pantalla de detalles:** al pulsar un Pikmin, se abre una `fragment` con su descripción e imagen ampliada.  
+- **Toolbar con menú:**  
+  - **Acerca de:** muestra información del autor o de la app.  
+  - **Ajustes:** permite modificar configuraciones básicas del usuario.  
+- **Diseño adaptativo:** interfaz optimizada para distintos tamaños de pantalla.
+
+
+## 🧑‍💻 Autor
 Francisco Gutiérrez Ruiz
 📚 Estudiante de Informática | 🚕 Taxista | 💻 Creador de Código para Todos
-
-🪴 Licencia
-
-Este proyecto se distribuye bajo la licencia...
