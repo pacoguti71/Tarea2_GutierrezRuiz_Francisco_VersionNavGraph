@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.PreferencesHelper
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.helpers.PreferencesHelper
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentAjustesBinding
 import java.util.Locale
 
@@ -26,10 +26,10 @@ class AjustesFragment : Fragment() {
      * Se inicializa en [onCreateView] y se libera en [onDestroyView] para evitar fugas de memoria.
      */
     private var _binding: FragmentAjustesBinding? = null
-    private val binding get() = _binding!!
+    private val binding get() = _binding!! // Hace get a _binding para acceder a la vista del fragmento
 
     /**
-     * Instancia de [dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.PreferencesHelper] para gestionar el almacenamiento y recuperación
+     * Instancia de [PreferencesHelper] para gestionar el almacenamiento y recuperación
      * de las preferencias del usuario (modo oscuro e idioma). Se inicializa en [onViewCreated].
      */
     private lateinit var preferencesHelper: PreferencesHelper
@@ -56,24 +56,12 @@ class AjustesFragment : Fragment() {
      * Método llamado cuando la vista del fragment ha sido creada.
      *
      * Se encarga de:
-     * 1. Habilitar el modo de borde a borde (`enableEdgeToEdge`).
-     * 2. Configurar la barra de herramientas (Toolbar) como ActionBar y habilitar el botón de retroceso.
-     * 3. Configurar los insets de ventana para la vista principal.
-     * 4. Inicializar [preferencesHelper].
-     * 5. Llamar a [configurarModoOscuro] y [configurarIdioma].
+     * 1. Inicializar [preferencesHelper].
+     * 2. Llamar a [configurarModoOscuro] y [configurarIdioma].
      */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        // Llama al método onViewCreated de la superclase
         super.onViewCreated(view, savedInstanceState)
-
-        // Habilita el modo de borde a borde si la actividad es AppCompatActivity
-        requireActivity().enableEdgeToEdge()
-
-        // Configura los insets de ventana
-        ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
 
         // Inicializa la variable preferencesHelper
         preferencesHelper = PreferencesHelper(requireContext())
@@ -92,14 +80,20 @@ class AjustesFragment : Fragment() {
      * - Cambia el modo de la aplicación según la selección del usuario.
      */
     private fun configurarModoOscuro() {
+        // Lee el valor almacenado en las preferencias
         val esModoOscuroGuardado = preferencesHelper.esModoOscuro()
+        // Actualiza el estado del interruptor
         binding.switchTema.isChecked = esModoOscuroGuardado
+        // Cambia el modo de la aplicación según la selección del usuario
         binding.switchTema.setOnCheckedChangeListener { _, isChecked ->
+            // Si está marcado, establece el modo oscuro
             if (isChecked) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                // Si no está marcado, establece el modo claro
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
+            // Guarda el valor en las preferencias
             preferencesHelper.saveModoOscuro(isChecked)
         }
     }
@@ -112,11 +106,16 @@ class AjustesFragment : Fragment() {
      * - Cambia el idioma entre español e inglés según la selección del usuario.
      */
     private fun configurarIdioma() {
+        // Detecta el idioma actual del sistema
         val idiomaActual = Locale.getDefault().language
+        // Actualiza el estado del interruptor según el idioma actual
         binding.switchIdioma.isChecked = idiomaActual == "es"
+        // Cambia el idioma según la selección del usuario
         binding.switchIdioma.setOnCheckedChangeListener { _, isChecked ->
+            // Si está marcado, establece el idioma español
             if (isChecked) {
                 setIdioma("es")
+                // Si no está marcado, establece el idioma inglés
             } else {
                 setIdioma("en")
             }
@@ -132,10 +131,15 @@ class AjustesFragment : Fragment() {
      * guarda la preferencia en [PreferencesHelper] y recrea la actividad para aplicar los cambios.
      */
     private fun setIdioma(idioma: String) {
+        // La variable locale almacena el idioma seleccionado
         val locale = Locale.Builder().setLanguage(idioma).build()
+        // La variable listaIdiomas almacena la lista de idiomas a aplicar
         val listaIdiomas = LocaleListCompat.create(locale)
+        // Aplica el idioma
         AppCompatDelegate.setApplicationLocales(listaIdiomas)
+        // Guarda la preferencia
         preferencesHelper.saveIdioma(idioma)
+        // Recrea la actividad para aplicar los cambios
         requireActivity().recreate()
     }
 
@@ -145,4 +149,3 @@ class AjustesFragment : Fragment() {
         _binding = null
     }
 }
-

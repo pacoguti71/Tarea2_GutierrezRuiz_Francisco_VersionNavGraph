@@ -2,14 +2,32 @@ package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos
 
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 
-// Usamos 'object' para crear una única instancia (Singleton) accesible desde cualquier lugar.
+/**
+ * Objeto singleton que crea y almacena la lista de todos los [Pikmin] de la aplicación.
+ *
+ * Proporciona una propiedad [listadoPikmins] que contiene todos los Pikmins definidos.
+ */
 object CreadorPikmins {
+    /** Lista inmutable de [Pikmin] creada al inicializar el objeto */
     val listadoPikmins: List<Pikmin> = crearListaPikmin()
 
+    /**
+     * Crea la lista de Pikmins con sus datos completos.
+     *
+     * Cada [Pikmin] se inicializa con:
+     * - Identificador único.
+     * - Nombre y familia (referencias a recursos string).
+     * - Nombre científico (referencia a recurso string).
+     * - Características de movilidad: terrestre, acuático o aéreo.
+     * - Descripción y tres características adicionales (referencias a recursos string).
+     * - Imagen asociada (referencia a recurso drawable).
+     *
+     * @return Lista de [Pikmin] con todos los datos inicializados.
+     */
     private fun crearListaPikmin(): List<Pikmin> {
         return listOf(
             Pikmin(
-                id="pikmin_rojo",
+                id = "pikmin_rojo",
                 nombre = R.string.red_pikmin,
                 familia = R.string.fam_red_pikmin,
                 nombreCientifico = R.string.cn_red_pikmin,
@@ -23,7 +41,7 @@ object CreadorPikmins {
                 imagen = R.drawable.red_pikmin
             ),
             Pikmin(
-                id="pikmin_amarillo",
+                id = "pikmin_amarillo",
                 nombre = R.string.yellow_pikmin,
                 familia = R.string.fam_yellow_pikmin,
                 nombreCientifico = R.string.cn_yellow_pikmin,
@@ -37,7 +55,7 @@ object CreadorPikmins {
                 imagen = R.drawable.yellow_pikmin
             ),
             Pikmin(
-                id="pikmin_azul",
+                id = "pikmin_azul",
                 nombre = R.string.blue_pikmin,
                 familia = R.string.fam_blue_pikmin,
                 nombreCientifico = R.string.cn_blue_pikmin,
@@ -51,7 +69,7 @@ object CreadorPikmins {
                 imagen = R.drawable.blue_pikmin
             ),
             Pikmin(
-                id="pikmin_blanco",
+                id = "pikmin_blanco",
                 nombre = R.string.white_pikmin,
                 familia = R.string.fam_white_pikmin,
                 nombreCientifico = R.string.cn_white_pikmin,
@@ -65,7 +83,7 @@ object CreadorPikmins {
                 imagen = R.drawable.white_pikmin
             ),
             Pikmin(
-                id="pikmin_morado",
+                id = "pikmin_morado",
                 nombre = R.string.purple_pikmin,
                 familia = R.string.fam_purple_pikmin,
                 nombreCientifico = R.string.cn_purple_pikmin,
@@ -79,7 +97,7 @@ object CreadorPikmins {
                 imagen = R.drawable.purple_pikmin
             ),
             Pikmin(
-                id="pikmin_petreo",
+                id = "pikmin_petreo",
                 nombre = R.string.rock_pikmin,
                 familia = R.string.fam_rock_pikmin,
                 nombreCientifico = R.string.cn_rock_pikmin,
@@ -93,7 +111,7 @@ object CreadorPikmins {
                 imagen = R.drawable.rock_pikmin
             ),
             Pikmin(
-                id="pikmin_alado",
+                id = "pikmin_alado",
                 nombre = R.string.winged_pikmin,
                 familia = R.string.fam_winged_pikmin,
                 nombreCientifico = R.string.cn_winged_pikmin,
@@ -107,7 +125,7 @@ object CreadorPikmins {
                 imagen = R.drawable.winged_pikmin
             ),
             Pikmin(
-                id="pikmin_gelido",
+                id = "pikmin_gelido",
                 nombre = R.string.ice_pikmin,
                 familia = R.string.fam_ice_pikmin,
                 nombreCientifico = R.string.cn_ice_pikmin,
@@ -121,7 +139,7 @@ object CreadorPikmins {
                 imagen = R.drawable.ice_pikmin
             ),
             Pikmin(
-                id="pikmin_luminoso",
+                id = "pikmin_luminoso",
                 nombre = R.string.glow_pikmin,
                 familia = R.string.fam_glow_pikmin,
                 nombreCientifico = R.string.cn_glow_pikmin,
@@ -135,7 +153,7 @@ object CreadorPikmins {
                 imagen = R.drawable.glow_pikmin
             ),
             Pikmin(
-                id="bulbo",
+                id = "bulbo",
                 nombre = R.string.bulborb,
                 familia = R.string.fam_bulborb,
                 nombreCientifico = R.string.cn_bulborb,
@@ -149,7 +167,7 @@ object CreadorPikmins {
                 imagen = R.drawable.bulborb
             ),
             Pikmin(
-                id="liendre_astada",
+                id = "liendre_astada",
                 nombre = R.string.joustmite,
                 familia = R.string.fam_joustmite,
                 nombreCientifico = R.string.cn_joustmite,
@@ -163,7 +181,7 @@ object CreadorPikmins {
                 imagen = R.drawable.joustmite
             ),
             Pikmin(
-                id="pisaatomos_hoja",
+                id = "pisaatomos_hoja",
                 nombre = R.string.skitter_leaf,
                 familia = R.string.fam_skitter_leaf,
                 nombreCientifico = R.string.cn_skitter_leaf,
@@ -177,7 +195,7 @@ object CreadorPikmins {
                 imagen = R.drawable.skitter_leaf
             ),
             Pikmin(
-                id="insecto_noducristal",
+                id = "insecto_noducristal",
                 nombre = R.string.skutterchuck,
                 familia = R.string.fam_skutterchuck,
                 nombreCientifico = R.string.cn_skutterchuck,
@@ -191,7 +209,7 @@ object CreadorPikmins {
                 imagen = R.drawable.skutterchuck
             ),
             Pikmin(
-                id="pirobabosa",
+                id = "pirobabosa",
                 nombre = R.string.pyroclasmic_slooch,
                 familia = R.string.fam_pyroclasmic_slooch,
                 nombreCientifico = R.string.cn_pyroclasmic_slooch,
@@ -205,7 +223,7 @@ object CreadorPikmins {
                 imagen = R.drawable.pyroclasmic_slooch
             ),
             Pikmin(
-                id="estatican_lanudo",
+                id = "estatican_lanudo",
                 nombre = R.string.bearded_amprat,
                 familia = R.string.fam_bearded_amprat,
                 nombreCientifico = R.string.cn_bearded_amprat,
@@ -219,7 +237,7 @@ object CreadorPikmins {
                 imagen = R.drawable.bearded_amprat
             ),
             Pikmin(
-                id="bulbo_emperatriz",
+                id = "bulbo_emperatriz",
                 nombre = R.string.empress_bulblax,
                 familia = R.string.fam_empress_bulblax,
                 nombreCientifico = R.string.cn_empress_bulblax,
@@ -233,7 +251,7 @@ object CreadorPikmins {
                 imagen = R.drawable.empress_bulblax
             ),
             Pikmin(
-                id="espectro_acuatico",
+                id = "espectro_acuatico",
                 nombre = R.string.waterwraith,
                 familia = R.string.fam_waterwraith,
                 nombreCientifico = R.string.cn_waterwraith,
@@ -247,7 +265,7 @@ object CreadorPikmins {
                 imagen = R.drawable.waterwraith
             ),
             Pikmin(
-                id="lumiloma",
+                id = "lumiloma",
                 nombre = R.string.lumiknoll,
                 familia = R.string.fam_lumiknoll,
                 nombreCientifico = R.string.cn_lumiknoll,
@@ -261,7 +279,7 @@ object CreadorPikmins {
                 imagen = R.drawable.lumiknoll
             ),
             Pikmin(
-                id="cepucranco",
+                id = "cepucranco",
                 nombre = R.string.peckish_aristocrab,
                 familia = R.string.fam_peckish_aristocrab,
                 nombreCientifico = R.string.cn_peckish_aristocrab,
@@ -275,7 +293,7 @@ object CreadorPikmins {
                 imagen = R.drawable.peckish_aristocrab
             ),
             Pikmin(
-                id="comejen_acuatico",
+                id = "comejen_acuatico",
                 nombre = R.string.puckering_blinnow,
                 familia = R.string.fam_puckering_blinnow,
                 nombreCientifico = R.string.cn_puckering_blinnow,
@@ -289,7 +307,7 @@ object CreadorPikmins {
                 imagen = R.drawable.puckering_blinnow
             ),
             Pikmin(
-                id="acuatirador",
+                id = "acuatirador",
                 nombre = R.string.skeeterskate,
                 familia = R.string.fam_skeeterskate,
                 nombreCientifico = R.string.cn_skeeterskate,
@@ -303,7 +321,7 @@ object CreadorPikmins {
                 imagen = R.drawable.skeeterskate
             ),
             Pikmin(
-                id="berberechido_soplon",
+                id = "berberechido_soplon",
                 nombre = R.string.toady_bloyster,
                 familia = R.string.fam_toady_bloyster,
                 nombreCientifico = R.string.cn_toady_bloyster,
@@ -317,7 +335,7 @@ object CreadorPikmins {
                 imagen = R.drawable.toady_bloyster
             ),
             Pikmin(
-                id="burbujero",
+                id = "burbujero",
                 nombre = R.string.waddlepus,
                 familia = R.string.fam_waddlepus,
                 nombreCientifico = R.string.cn_waddlepus,
@@ -331,7 +349,7 @@ object CreadorPikmins {
                 imagen = R.drawable.waddlepus
             ),
             Pikmin(
-                id="verraco_volador",
+                id = "verraco_volador",
                 nombre = R.string.puffy_blowhog,
                 familia = R.string.fam_puffy_blowhog,
                 nombreCientifico = R.string.cn_puffy_blowhog,
@@ -345,7 +363,7 @@ object CreadorPikmins {
                 imagen = R.drawable.puffy_blowhog
             ),
             Pikmin(
-                id="moscardon_ladron",
+                id = "moscardon_ladron",
                 nombre = R.string.swooping_snitchbug,
                 familia = R.string.fam_swooping_snitchbug,
                 nombreCientifico = R.string.cn_swooping_snitchbug,

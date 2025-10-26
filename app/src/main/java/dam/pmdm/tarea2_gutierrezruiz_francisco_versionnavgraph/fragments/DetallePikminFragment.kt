@@ -9,15 +9,40 @@ import androidx.fragment.app.Fragment
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentAjustesBinding
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.FragmentDetallePikminBinding
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.CreadorPikmins
 
+/**
+ * Fragment que muestra los detalles completos de un [Pikmin] seleccionado.
+ *
+ * Recupera el ID del Pikmin desde los argumentos y obtiene sus datos
+ * desde [CreadorPikmins.listadoPikmins]. Luego muestra:
+ * - Nombre, familia y nombre científico.
+ * - Descripción y hasta tres características.
+ * - Imagen representativa.
+ * - CheckBoxes indicando si es terrestre, acuático o aéreo.
+ *
+ * También oculta automáticamente las características vacías.
+ */
 class DetallePikminFragment : Fragment() {
 
-    private var _binding: FragmentDetallePikminBinding? =
-        null // _binding sirve para encapsular el acceso a la vista del fragmento
+    /**
+     * Variable de binding que proporciona acceso a las vistas del layout [FragmentDetallePikminBinding].
+     *
+     * Se inicializa en [onCreateView] y se libera en [onDestroyView] para evitar fugas de memoria.
+     */
+    private var _binding: FragmentDetallePikminBinding? = null
     private val binding get() = _binding!! // Hace get a _binding para acceder a la vista del fragmento
 
+    /**
+     * Infla el layout del fragmento y retorna la vista raíz.
+     *
+     * @param inflater LayoutInflater para inflar el layout.
+     * @param container Contenedor padre del fragmento.
+     * @param savedInstanceState Estado previo del fragmento, si lo hubiera.
+     * @return La vista raíz del fragmento inflada.
+     */
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -27,15 +52,18 @@ class DetallePikminFragment : Fragment() {
         return binding.root
     }
 
+    /**
+     * Configura la vista una vez creada.
+     *
+     * Recupera el Pikmin seleccionado por su ID y asigna sus datos a las vistas.
+     * Muestra un Toast indicando el Pikmin seleccionado y oculta características vacías.
+     *
+     * @param view Vista creada por el fragmento.
+     * @param savedInstanceState Estado previo del fragmento, si lo hubiera.
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // Llamada al método de la superclase para establecer la vista
         super.onViewCreated(view, savedInstanceState)
-        // Ajuste de márgenes con las barras del sistema
-        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
 
         // Recupera los argumentos pasados
         val pikminId = arguments?.getString("pikminId")
@@ -103,11 +131,20 @@ class DetallePikminFragment : Fragment() {
         binding.imagenDetalle.setImageResource(imagen)
     }
 
+    /**
+     * Oculta o muestra un conjunto de vistas según si el texto proporcionado está vacío o no.
+     *
+     * @param text Texto que se evalúa. Si es nulo o vacío, se ocultan las vistas.
+     * @param views Vistas a ocultar o mostrar.
+     */
     private fun setVisibleIfNotEmpty(text: String?, vararg views: View) {
         val visibility = if (text.isNullOrBlank()) View.GONE else View.VISIBLE
         views.forEach { it.visibility = visibility }
     }
 
+    /**
+     * Libera el binding al destruir la vista para evitar fugas de memoria.
+     */
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

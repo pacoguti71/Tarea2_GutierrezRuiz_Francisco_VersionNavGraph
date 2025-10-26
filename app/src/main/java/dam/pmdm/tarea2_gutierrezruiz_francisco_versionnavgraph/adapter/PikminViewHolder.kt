@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.gestion
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ItemCardviewLayoutBinding
@@ -9,7 +9,8 @@ import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.datos.Pikmin
  *
  * @param binding Instancia de [ItemCardviewLayoutBinding] generada por Data Binding.
  */
-class PikminViewHolder(private val binding: ItemCardviewLayoutBinding) : RecyclerView.ViewHolder(binding.root) { // El binding se pasa al constructor
+class PikminViewHolder(private val binding: ItemCardviewLayoutBinding) :
+    RecyclerView.ViewHolder(binding.root) { // El binding se pasa al constructor
     /**
      * Enlaza los datos de un objeto [Pikmin] a las vistas del ViewHolder.
      *
@@ -17,7 +18,7 @@ class PikminViewHolder(private val binding: ItemCardviewLayoutBinding) : Recycle
      */
     fun bind(pikmin: Pikmin) {
         // Asignamos los valores a las vistas
-        binding.pikmin=pikmin
+        binding.pikmin = pikmin
         // context es una referencia al contexto de la aplicación
         val context = binding.root.context
         // Asignamos el texto a la vista

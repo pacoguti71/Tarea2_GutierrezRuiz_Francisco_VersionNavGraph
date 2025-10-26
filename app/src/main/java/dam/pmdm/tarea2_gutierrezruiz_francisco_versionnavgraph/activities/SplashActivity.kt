@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.activities
 
 import android.content.Intent
 import android.os.Build
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 
 /**
  * Actividad encargada de mostrar la pantalla de bienvenida (Splash Screen)
@@ -13,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
  *
  * Utiliza una lógica condicional para manejar dos escenarios:
  * 1. Android 12 (API 31) o superior: Confía en el Splash Screen nativo del sistema.
- * 2. Inferior a Android 12: Muestra una pantalla de carga manual ([R.layout.activity_splash])
+ * 2. Inferior a Android 12: Muestra una pantalla de carga manual ([dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R.layout.activity_splash])
  * durante un tiempo de retardo definido, para simular el comportamiento.
  */
 class SplashActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph
+package dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.activities
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -13,8 +13,18 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.snackbar.Snackbar
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.helpers.PreferencesHelper
+import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.R
 import dam.pmdm.tarea2_gutierrezruiz_francisco_versionnavgraph.databinding.ActivityMainBinding
 
+/**
+ * Actividad principal de la aplicación que gestiona la interfaz de usuario,
+ * la navegación entre fragmentos y la configuración de la toolbar.
+ *
+ * Esta actividad utiliza View Binding para inflar el diseño y NavController
+ * para controlar la navegación. También aplica el modo oscuro según las
+ * preferencias del usuario y muestra un mensaje de bienvenida.
+ */
 class MainActivity : AppCompatActivity() {
     // Instancia del binding para la actividad
     private lateinit var binding: ActivityMainBinding
@@ -22,6 +32,19 @@ class MainActivity : AppCompatActivity() {
     // Controlador de navegación
     private lateinit var navController: NavController
 
+    /**
+     * Método de ciclo de vida de la actividad que se llama al crearla.
+     *
+     * @param savedInstanceState Contiene el estado previo de la actividad, si lo hubiera.
+     *
+     * Este método:
+     * - Infla el layout mediante View Binding.
+     * - Configura los insets de la ventana para respetar barras del sistema.
+     * - Inicializa el NavController.
+     * - Configura la toolbar según el fragmento mostrado.
+     * - Aplica el modo oscuro según preferencias.
+     * - Muestra un mensaje de bienvenida con Snackbar.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         // Llama al metodo onCreate de la clase padre
         super.onCreate(savedInstanceState)
@@ -61,12 +84,23 @@ class MainActivity : AppCompatActivity() {
         ).show()
     }
 
-
+    /**
+     * Configura la toolbar según el fragmento actual.
+     *
+     * @param destinationId ID del fragmento actual en el NavController.
+     *
+     * Dependiendo del fragmento, esta función:
+     * - Ajusta el título de la toolbar.
+     * - Configura la flecha de retroceso y su listener.
+     * - Infla el menú si corresponde y gestiona los clics en sus elementos.
+     */
     private fun configurarToolbar(destinationId: Int) {
         // Valores por defecto
-        var titulo = getString(R.string.app_name) // El título por defecto es el nombre de la aplicación
+        var titulo =
+            getString(R.string.app_name) // El título por defecto es el nombre de la aplicación
         var flechaAtras: Drawable? = null // La flecha de retroceso por defecto es null
-        var navigationClickListener: (() -> Unit)? = null // El listener de clics por defecto es null
+        var navigationClickListener: (() -> Unit)? =
+            null // El listener de clics por defecto es null
         var mostrarMenu = false // Por defecto no se muestra el menú
 
         // Configura los valores según el destino de navegación
@@ -91,8 +125,9 @@ class MainActivity : AppCompatActivity() {
         binding.toolbarTitle.text = titulo
         binding.toolbar.navigationIcon = flechaAtras
         binding.toolbar.setNavigationOnClickListener(
-            if (navigationClickListener != null) View.OnClickListener { navigationClickListener() } // Si el listener no es null, se aplica el listener
-            else null //
+            // Si el listener no es null, se aplica el listener
+            if (navigationClickListener != null) View.OnClickListener { navigationClickListener() }
+            else null
         )
 
         // Gestiona el menú
@@ -124,12 +159,19 @@ class MainActivity : AppCompatActivity() {
                             .show()
                         true
                     }
+
                     else -> false
                 }
             }
         }
     }
 
+    /**
+     * Aplica el modo oscuro según las preferencias guardadas por el usuario.
+     *
+     * Si la preferencia indica modo oscuro, se aplica; de lo contrario, se aplica el modo claro.
+     * Esto asegura que el tema sea correcto al iniciar la aplicación.
+     */
     private fun aplicarModoOscuro() {
         // Crea un objeto PreferencesHelper para gestionar las preferencias del usuario
         val preferencesHelper = PreferencesHelper(this)
