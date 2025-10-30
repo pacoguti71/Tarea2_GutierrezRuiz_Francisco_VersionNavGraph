@@ -56,11 +56,6 @@ Fragmentos que representan las distintas pantallas de la app:
 
 - ListadoPikminsFragment.kt: Lista todos los Pikmins disponibles en la aplicación.
 
-# 🛠️ helpers
-Utilidades y clases de apoyo:
-
-- PreferencesHelper.kt: Clase que facilita el acceso y gestión de preferencias compartidas (SharedPreferences).
-
 
 ## 🚀 Cómo ejecutar
 Clona el repositorio:
